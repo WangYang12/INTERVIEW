@@ -38,6 +38,7 @@ public class BinSrhtree {
     public void insert(int key, int value) {
         if (root == null) {
             root = new Node(key, value);
+            return;
         }
         Node currentnode = root;
         Node parentnode = root;
